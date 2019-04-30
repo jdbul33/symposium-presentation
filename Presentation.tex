@@ -135,7 +135,7 @@ South Bend, IN 311 Call Center
 \textbf{Three main goals within this project}
 \end{center}
 \begin{enumerate}
-    \item Conduct statistical tests and analysis of historical call center data using Python
+    \item Conduct statistical tests and analysis of historical call center data to provide insight to management
      \item Utilize Python to create an open-source, accessible interactive dashboard of call center metrics
      \item Create a model and simulation of the call center, using statistical findings as basis
 \end{enumerate}
@@ -173,6 +173,20 @@ Cleaning
 \section{Statistical Analysis} 
 
 
+
+
+\begin{frame}{Statistical Analyses}
+\textbf{Goal: }Conduct statistical tests and analysis of historical call center data to provide insight for management.\\
+These included:
+\begin{itemize}
+	\item Call duration by topic
+	\item Call duration by department
+	\item Call abandonment rates
+	\item Monthly, daily, \& hourly call volume means
+\end{itemize}
+
+\end{frame}
+
 \begin{frame}{Call Volume}
 	\begin{center}
 		Calls by Month
@@ -187,16 +201,6 @@ Cleaning
 \end{frame}
  
 
-
-\begin{frame}{Other Statistical Analyses}
-    \begin{itemize}
-        \item Call duration by topic
-        \item Call duration by department
-        \item Call abandonment rates
-        \item Hourly call volume means (for simulation)
-\end{itemize}
-
-\end{frame}
 
 
 
@@ -225,18 +229,8 @@ Cleaning
 
 
 \begin{frame}{Visualization Dashboard}
-\begin{tabular}{cl}  
-	\begin{tabular}{c}
-
+\centering
 \includegraphics[scale=.15]{Dashboard}
-	\end{tabular}
-& \begin{tabular}{l}
-\parbox{0.5\linewidth}{%  change the parbox width as appropiate
-	\href{https://jdbul33.github.io/CallCenterDashboard.html}{Link to Hosted File}
-}
-\end{tabular}  \\
-\end{tabular}
-
 
 \end{frame}
 
@@ -244,8 +238,8 @@ Cleaning
 \section{Simulation}
 
 \begin{frame}{Simulation Summary}
+\textbf{Goal: }Simulate the South Bend 311 Call Center as closely as possible given prior data
 \begin{itemize}
-	\item \textbf{Goal: }Simulate the South Bend 311 Call Center as closely as possible given prior data
 	\item Utilized Arena as simulation tool
 	\item Historical distributions from prior analysis
 	\begin{itemize}
@@ -273,6 +267,7 @@ All goals were met, with visualization dashboard hosted online and provided to t
 	\item Interactive HTML dashboard created using Python showcasing metrics of interest to call center management
 	\item Model of call center was created and simulations were run, replicating the actual operation as closely as possible
 \end{itemize}
+\centering \href{https://jdbul33.github.io/CallCenterDashboard.html}{Link to Hosted Visualization}
 
 
 \end{frame}
